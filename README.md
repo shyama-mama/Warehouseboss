@@ -7,13 +7,6 @@
   - Christine - Scrum Master
   - Shyam - Dev
 
-### WHO'S DOING WHICH CLASSES
-  - Alen - Game.java
-  - Alan - State.java
-  - Charley - MapGeneration.java
-  - Christine - Entity.java
-  - Shyam - MapGeneration.java
-
 ### Contact details ###
 Charley: 
   - charley.wong@hotmail.com
