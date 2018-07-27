@@ -1,0 +1,201 @@
+#mainbg{
+    -fx-background-color: #000000;
+}
+
+/*
+ * ==================================
+ * Start buttons
+ */
+
+#startbtn{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/start/whbossButtons-00.png');
+    /*-fx-background-image: url('../Images/btn-ui/start/whbossButtons-start.png');*/
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#startbtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/start/whbossButtons-start-hover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#startbtn:pressed{
+    -fx-background-color: none;
+    /*-fx-background-image: url('../Images/btn-ui/start/whbossButtons-start1.png');*/
+    -fx-background-image: url('../Images/btn-ui/start/whbossButtons-01.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+/*
+ * ==================================
+ * Tutorial buttons
+ */
+
+#tutbtn{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/tut/whbossButtons-06.png');
+    /*-fx-background-image: url('../Images/btn-ui/tut/whbossButtons-tutorial.png');*/
+
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#tutbtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/tut/whbossButtons-tutorial-hover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#tutbtn:pressed{
+    -fx-background-color: none;
+    /*-fx-background-image: url('../Images/btn-ui/tut/whbossButtons-tutorial1.png');*/
+    -fx-background-image: url('../Images/btn-ui/tut/whbossButtons-07.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+/*
+ * ==================================
+ * Exit buttons
+ */
+
+#exitbtn{
+    -fx-background-color: none;
+    /*-fx-background-image: url('../Images/btn-ui/exit/whbossButtons-quit.png');*/
+    -fx-background-image: url('../Images/btn-ui/exit/whbossButtons-04.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#exitbtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/exit/whbossButtons-quit-hover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#exitbtn:pressed{
+    -fx-background-color: none;
+    /*-fx-background-image: url('../Images/btn-ui/exit/whbossButtons-quit1.png');*/
+    -fx-background-image: url('../Images/btn-ui/exit/whbossButtons-05.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+/*
+ * ==================================
+ * Difficulty buttons
+ */
+ 
+/* ***************EASY*************** */
+ #easybtn{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/diff/easy/whbossButtons-easy.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#easybtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/diff/easy/whbossButtons-easyhover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#easybtn:pressed{
+    -fx-background-color: none;
+    -fx-background-image: url("../Images/btn-ui/diff/easy/whbossButtons-easy1.png");
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+
+/* ***************NORMAL*************** */
+#normalbtn{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/diff/normal/whbossButtons-normal0.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+#normalbtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/diff/normal/whbossButtons-normalhover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#normalbtn:pressed{
+    -fx-background-color: none;
+    -fx-background-image: url("../Images/btn-ui/diff/normal/whbossButtons-normal1.png");
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+/* ***************HARD*************** */
+#hardbtn{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/diff/hard/whbossButtons-hard0.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#hardbtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/diff/hard/whbossButtons-hardhover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#hardbtn:pressed{
+    -fx-background-color: none;
+    -fx-background-image: url("../Images/btn-ui/diff/hard/whbossButtons-hard1.png");
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+/* ***************RETURN*************** */
+#returnbtn{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/back/whbossButtons-back.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#returnbtn:hover{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/back/whbossButtons-back-hover.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
+
+#returnbtn:pressed{
+    -fx-background-color: none;
+    -fx-background-image: url('../Images/btn-ui/back/whbossButtons-back1.png');
+    -fx-background-size: 200px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;   
+}
